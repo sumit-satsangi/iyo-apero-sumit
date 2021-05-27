@@ -1,7 +1,7 @@
 ---
 ## Configure sidebar content in narrow column
 author: "Sumit Satsangi"
-role: "Manager - Ops Analytics"
+role: "Manager - Ops Analytics \n He/Him/His"
 avatar_shape: rounded # circle, square, rounded
 show_social_links: true # specify social accounts in site config
 show_audio_link: true
