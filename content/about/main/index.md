@@ -5,7 +5,7 @@ number_featured: 1 # pulling from mainSections in config.toml
 number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
-  Breaking my keyboard and butning midnight lamp (literally) to learn new things in Analytics. With occassional fun!!!
+  Breaking my keyboard and burning midnight lamp (literally) to learn new things in Analytics. With occasional fun!!!
 show_outro: true
 outro: |
   <i class="fas fa-mug-hot pr2"></i>If my blog has helped you, you can [buy me a coffee](https://ko-fi.com/)!
