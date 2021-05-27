@@ -1,12 +1,16 @@
 ---
-title: "Emily Cooper"
-subtitle: "Social media strategy @ Savoir"
-description: "Not all themes are created equal. With Blogophonic we set out to create a clean theme with the right features for a serious blog. We also wanted Blogophonic to be a pleasure to modify, so we built it with Tachyons, CSS Grid and packed it full of configurable options."
-date: 2019-02-18T12:27:33-06:00
+title: "Sumit Satsangi"
+subtitle: "...let's grow together !!!"
+description: "A father, a husband, a son, a brother, a friend, a learner and a natural problem solver…
+<p>
+Highly organized, analytic and goal-oriented professional, equipped with a career history of proven expertise in analyzing processes and procedures. Enthusiastic to obtain a position in management consulting that would provide strategic advantage in various functions related to operations, finance and analytics.
+<p>
+Proficient in enhancing the profitability by providing new, out of the box and cost effective ideas within the organization. Dedicated to maintaining a reputation built on quality, service, and uncompromising ethics."
+date: 2021-05-18T12:27:33-06:00
 images:
-  - img/revoir.jpg
+  - img/me.jpeg
 image_left: true
-text_align_left: false
+text_align_left: true
 show_social_links: true # specify social accounts in site config
 show_action_link: true
 action_link: /about
