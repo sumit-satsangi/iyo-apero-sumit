@@ -8,7 +8,7 @@ intro: |
   Breaking my keyboard and burning midnight lamp (literally) to learn new things in Analytics. With occasional fun!!!
 show_outro: true
 outro: |
-  <i class="fas fa-mug-hot pr2"></i>If my blog has helped you, you can [buy me a coffee](https://ko-fi.com/)!
+  <i class="fas fa-mug-hot pr2"></i>If my blog has helped you, you can [buy me a coffee](https://ko-fi.com/sumitsatsangi)!
 ---
 
 ** index doesn't contain a body, just front matter above.

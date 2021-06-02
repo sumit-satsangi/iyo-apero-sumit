@@ -43,7 +43,7 @@ enableEmoji = true
   # Place image file in `static` folder and specify image name here.
   sharing_image = "/img/unicorn-megaphone.png"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
-  twitter = "sumit.satsangi"
+  twitter = "sumit_satsangi"
   
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
@@ -61,8 +61,8 @@ enableEmoji = true
   # serif options: Fraunces / EB Garamond / Bitter
   # sans-serif options: Commissioner / Alegreya Sans / Metropolis
   # if you import your own fonts, name them here too
-  customtextFontFamily = "Avenir"
-  customheadingFontFamily = "Fraunces"
+  customtextFontFamily = "Metropolis"
+  customheadingFontFamily = "Metropolis"
   # alternatively, leave empty and select basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
   textFontFamily = "sans-serif"
@@ -78,7 +78,11 @@ enableEmoji = true
       icon_pack = "fab"
       url       = "https://github.com/sumit-satsangi"
   [[params.social]]
-      icon      = "facebook-square" # icon name without the 'fa-'
+      icon      = "linkedin" # icon name without the 'fa-'
+      icon_pack = "fab"
+      url       = "https://linkedin.com/in/sumitsatsangi"
+  [[params.social]]
+      icon      = "facebook-f" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://www.facebook.com/sumitsatsangi/"
   [[params.social]]
@@ -92,7 +96,7 @@ enableEmoji = true
   [[params.social]]
       icon      = "rss" # icon name without the 'fa-'
       icon_pack = "fas"
-      url       = "/blog/index.xml"
+      url       = "/.."
 
 [taxonomies]
   category = "categories"

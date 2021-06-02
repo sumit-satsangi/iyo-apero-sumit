@@ -8,7 +8,7 @@ Highly organized, analytic and goal-oriented professional, equipped with a caree
 Proficient in enhancing the profitability by providing new, out of the box and cost effective ideas within the organization. Dedicated to maintaining a reputation built on quality, service, and uncompromising ethics."
 date: 2021-05-18T12:27:33-06:00
 images:
-  - img/me.jpeg
+  - img/meLN.png
 image_left: true
 text_align_left: true
 show_social_links: true # specify social accounts in site config
