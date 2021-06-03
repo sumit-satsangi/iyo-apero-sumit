@@ -1,7 +1,7 @@
 baseURL = "https://sumit.rbind.io"
 theme = "hugo-apero"
 languageCode = "en"
-title = "Personal website of Sumit Satsangi"
+title = "Sumit Satsangi"
 author = "Sumit Satsangi"
 copyright = "(C) Sumit Satsangi 2021" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
