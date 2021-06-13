@@ -31,8 +31,8 @@ enableEmoji = true
   orgName = "Genpact"
   orgLocal = "Jaipur"
   description = "just for fun..."
-  favicon = "/img/favicon.ico"
-  logo = "/img/blogophonic-mark-dark.png"
+  favicon = "/img/ss.ico"
+  logo = "/img/ss.png"
   mainSections = ["blog", "project", "talk"]
   navallcaps = true
   # show/hide social icons in site header & footer

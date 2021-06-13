@@ -1,8 +1,8 @@
 ---
 title: Random thoughts and ranting
 description: |
-  Starting from the free tier at Wordpress, I quickly moved to rbind and netlify in order to share my learnings along with some tips and tricks of life.
-author: "Sumit Satsangi"
+  Starting from the free tier at Wordpress, quickly moved to rbind and Netlify in order to share my learning along with some tips and tricks of life.
+author: ""
 show_post_thumbnail: true
 show_author_byline: true
 show_post_date: true
@@ -15,7 +15,7 @@ sidebar:
   description: |
     This is a fully featured blog that supports categories,
     tags, series, and pagination. Even this sidebar offers 
-    a ton of customizations.
+    a ton of customization.
     
     Check out the _index.md file in the /blog folder 
     to edit this content. 

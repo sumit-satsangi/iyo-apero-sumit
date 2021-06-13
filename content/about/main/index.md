@@ -2,7 +2,7 @@
 ## Configure page content in wide column
 title: "What I'm up to lately" # leave blank to exclude
 number_featured: 1 # pulling from mainSections in config.toml
-number_categories: 3 # set to zero to exclude
+number_categories: 0 # set to zero to exclude
 show_intro: true
 intro: |
   Breaking my keyboard and burning midnight lamp (literally) to learn new things in Analytics. With occasional fun!!!
