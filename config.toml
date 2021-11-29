@@ -1,4 +1,4 @@
-baseURL = "https://sumit.rbind.io"
+baseURL = "http://sumit.rbind.io"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Sumit Satsangi"
@@ -31,7 +31,7 @@ enableEmoji = true
   orgName = "Genpact"
   orgLocal = "Jaipur"
   description = "just for fun..."
-  favicon = "/img/ss.ico"
+  favicon = "/img/favicon.ico"
   logo = "/img/ss.png"
   mainSections = ["blog", "project", "talk"]
   navallcaps = true
@@ -41,7 +41,7 @@ enableEmoji = true
   socialInFooter = true
   # Default image for social sharing and search engines. 
   # Place image file in `static` folder and specify image name here.
-  sharing_image = "/img/unicorn-megaphone.png"
+  sharing_image = "/img/0.jpeg"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
   twitter = "sumit_satsangi"
   
@@ -61,8 +61,8 @@ enableEmoji = true
   # serif options: Fraunces / EB Garamond / Bitter
   # sans-serif options: Commissioner / Alegreya Sans / Metropolis
   # if you import your own fonts, name them here too
-  customtextFontFamily = "Metropolis"
-  customheadingFontFamily = "Metropolis"
+  customtextFontFamily = "Alegreya Sans"
+  customheadingFontFamily = "Alegreya Sans"
   # alternatively, leave empty and select basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
   textFontFamily = "sans-serif"
@@ -115,9 +115,9 @@ enableEmoji = true
     url = "/blog/"
     weight = 2
   [[menu.header]]
-    name = "Projects"
-    title = "my wishlist"
-    url = "/project/"
+    name = "Portfolio"
+    title = "my work"
+    url = "/portfolio/"
     weight = 3
   [[menu.header]]
     name = "Talks"
@@ -130,12 +130,12 @@ enableEmoji = true
     name = "License"
     title = "License"
     url = "/license/"
-    weight = 1
+    weight = 2
   [[menu.footer]]
     name = "Contact"
     title = "Contact form"
     url = "/contact/"
-    weight = 2
+    weight = 1
 
 # see https://gohugo.io/about/hugo-and-gdpr/    
 [privacy]
