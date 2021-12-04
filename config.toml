@@ -93,10 +93,10 @@ enableEmoji = true
       icon      = "twitter" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://twitter.com/sumit_satsangi"
-  [[params.social]]
-      icon      = "rss" # icon name without the 'fa-'
-      icon_pack = "fas"
-      url       = "/.."
+  #[[params.social]]
+    #  icon      = "rss" # icon name without the 'fa-'
+    #  icon_pack = "fas"
+    #  url       = "/.."
 
 [taxonomies]
   category = "categories"

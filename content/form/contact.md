@@ -1,7 +1,7 @@
 ---
 title: Contact
 name: Contact Sumit Satsangi
-description: "Well, it is what it is. You want to connect? Fill in the details on right and I will connect with you quickly. <br> Do consider the geographical time difference in mind though."
+description: "Well, it is what it is. You want to connect? Fill in the details on left and I will connect with you quickly. <br> Do consider the geographical time difference in mind though."
 date: 2019-02-25T13:38:41-06:00
 draft: false
 url: contact
