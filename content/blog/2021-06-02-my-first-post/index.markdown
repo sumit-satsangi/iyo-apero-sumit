@@ -2,7 +2,7 @@
 title: "First rbind post"
 subtitle: ""
 excerpt: "My first R post"
-date: 2021-06-02
+date: 2021-12-01
 author: "Sumit Satsangi"
 draft: false
 images:
@@ -14,44 +14,47 @@ categories:
   - general
   - ranting
 layout: single
+output: html_document
 ---
-<!-- {{< here >}} -->## Some penguins to start
+<style>
+body {
+text-align: justify}
+</style>
 
+<div class="figure">
+<img src="featured.png" alt="A nice image." width="20%" />
+<p class="caption">Figure 1: A nice image.</p>
+</div>
+
+## Some penguins to start
 
 ```r
 library(tidyverse)
-## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──
-## ✓ ggplot2 3.3.3     ✓ purrr   0.3.4
-## ✓ tibble  3.1.1     ✓ dplyr   1.0.5
-## ✓ tidyr   1.1.3     ✓ stringr 1.4.0
-## ✓ readr   1.4.0     ✓ forcats 0.5.1
-## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-## x dplyr::filter() masks stats::filter()
-## x dplyr::lag()    masks stats::lag()
+library(knitr)
 library(palmerpenguins)
 ```
 
+<div class="figure">
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-3-1.png" alt="Histogram" width="672" />
+<p class="caption">Figure 2: Histogram</p>
+</div><div class="figure">
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-3-2.png" alt="Histogram" width="672" />
+<p class="caption">Figure 3: Histogram</p>
+</div>
+
+
 
 ```r
-ggplot(data = penguins, aes(x = flipper_length_mm)) +
-  geom_histogram(aes(fill = species), alpha = 0.5, position = "identity") +
-  scale_fill_manual(values = c("darkorange","darkorchid","cyan4"))
+knitr::opts_chunk$set(echo = TRUE)
 ```
-
-```
-## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
-```
-
-```
-## Warning: Removed 2 rows containing non-finite values (stat_bin).
-```
-
-<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-2-1.png" width="672" />
+`\(Be > \frac{1}{N}\sum_{i=1}^{n} X_i\)`
 
 
+<!-- `$$\sum_{i=1}^{n}\left( \frac{X_i}{Y_i} \right)$$` -->
 
+`$$Be > \frac{1}{N}\sum_{i=1}^{n} X_i$$`
 
-### Fame was like a drug. But what was even more like a drug were the drugs.
+### Fame was like a  drug. But what was even more like a drug were the drugs.
 
 Jesus must be spinning in his grave! Marge, just about everything's a sin. Y'ever sat down and read this thing? Technically we're not supposed to go to the bathroom. Marge, it takes two to lie. One to lie and one to listen.
 

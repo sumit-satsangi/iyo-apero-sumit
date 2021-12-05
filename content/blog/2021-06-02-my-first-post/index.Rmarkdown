@@ -2,7 +2,7 @@
 title: "First rbind post"
 subtitle: ""
 excerpt: "My first R post"
-date: 2021-06-02
+date: 2021-12-01
 author: "Sumit Satsangi"
 draft: false
 images:
@@ -14,24 +14,45 @@ categories:
   - general
   - ranting
 layout: single
+output: html_document
 ---
-<!-- {{< here >}} -->## Some penguins to start
+<style>
+body {
+text-align: justify}
+</style>
 
-```{r, collapse=TRUE}
+```{r, echo=FALSE, out.width="20%", fig.cap="A nice image."}
+knitr::include_graphics("featured.png")
+```
+
+## Some penguins to start
+```{r, collapse=TRUE, message=FALSE}
 library(tidyverse)
+library(knitr)
 library(palmerpenguins)
 ```
 
-```{r}
+```{r, echo=FALSE, fig.cap="Histogram", message=FALSE, warning=FALSE}
 ggplot(data = penguins, aes(x = flipper_length_mm)) +
   geom_histogram(aes(fill = species), alpha = 0.5, position = "identity") +
   scale_fill_manual(values = c("darkorange","darkorchid","cyan4"))
+
+ggplot(data = penguins, aes(x = flipper_length_mm)) +
+  geom_histogram(aes(fill = species), alpha = 0.5, position = "identity")
 ```
 
 
+```{r}
+knitr::opts_chunk$set(echo = TRUE)
+```
+$Be > \frac{1}{N}\sum_{i=1}^{n} X_i$
 
 
-### Fame was like a drug. But what was even more like a drug were the drugs.
+<!-- $$\sum_{i=1}^{n}\left( \frac{X_i}{Y_i} \right)$$ -->
+
+$$Be > \frac{1}{N}\sum_{i=1}^{n} X_i$$
+
+### Fame was like a  drug. But what was even more like a drug were the drugs.
 
 Jesus must be spinning in his grave! Marge, just about everything's a sin. Y'ever sat down and read this thing? Technically we're not supposed to go to the bathroom. Marge, it takes two to lie. One to lie and one to listen.
 
