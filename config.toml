@@ -33,7 +33,7 @@ enableEmoji = true
   description = "just for fun..."
   favicon = "/img/favicon.ico"
   logo = "/img/ss.png"
-  mainSections = ["blog", "project", "talk"]
+  mainSections = ["blog", "project", "categories"]
   navallcaps = true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
@@ -120,9 +120,9 @@ enableEmoji = true
     url = "/portfolio/"
     weight = 3
   [[menu.header]]
-    name = "Talks"
-    title = "Talks"
-    url = "/talk/"
+    name = "Categories"
+    title = "categories"
+    url = "/categories/"
     weight = 4
     
   # Configure footer  

@@ -8,10 +8,9 @@ show_author_byline: true
 show_post_date: true
 # for listing page layout
 layout: list-grid # list, list-sidebar, list-grid
-# 9928944506 - S N Chaudhary
 # for list-sidebar layout
 sidebar: 
-  title: A Sidebar for Your Thoughts
+  title: A Sidebar for Your Thoughts 
   description: |
     This is a fully featured blog that supports categories,
     tags, series, and pagination. Even this sidebar offers 

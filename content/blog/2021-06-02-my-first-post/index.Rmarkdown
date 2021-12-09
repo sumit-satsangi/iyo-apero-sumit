@@ -8,11 +8,9 @@ draft: false
 images:
 series:
 tags:
-  - general
-  - ranting
+  - R
 categories:
-  - general
-  - ranting
+  - R
 layout: single
 output: html_document
 ---
@@ -21,22 +19,26 @@ body {
 text-align: justify}
 </style>
 
-```{r, echo=FALSE, out.width="20%", fig.cap="A nice image."}
+```{r, echo=FALSE, out.width="20%", fig.cap="Thumbnail"}
 knitr::include_graphics("featured.png")
 ```
 
-## Some penguins to start
+## Hello World!
+```{r, collapse=TRUE, message=FALSE}
+x <- "Hello World!"
+print(x)
+```
+
+Since this is the first ever post on this website, what could be better than the old trustworthy *Hello World!* program.
+
+## Some penguins to continue:
 ```{r, collapse=TRUE, message=FALSE}
 library(tidyverse)
 library(knitr)
 library(palmerpenguins)
 ```
 
-```{r, echo=FALSE, fig.cap="Histogram", message=FALSE, warning=FALSE}
-ggplot(data = penguins, aes(x = flipper_length_mm)) +
-  geom_histogram(aes(fill = species), alpha = 0.5, position = "identity") +
-  scale_fill_manual(values = c("darkorange","darkorchid","cyan4"))
-
+```{r, echo=FALSE, fig.cap="Histogram", message=FALSE, warning=FALSE, out.width="100%"}
 ggplot(data = penguins, aes(x = flipper_length_mm)) +
   geom_histogram(aes(fill = species), alpha = 0.5, position = "identity")
 ```

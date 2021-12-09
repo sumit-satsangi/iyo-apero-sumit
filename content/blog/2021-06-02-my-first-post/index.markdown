@@ -8,11 +8,9 @@ draft: false
 images:
 series:
 tags:
-  - general
-  - ranting
+  - R
 categories:
-  - general
-  - ranting
+  - R
 layout: single
 output: html_document
 ---
@@ -22,11 +20,21 @@ text-align: justify}
 </style>
 
 <div class="figure">
-<img src="featured.png" alt="A nice image." width="20%" />
-<p class="caption">Figure 1: A nice image.</p>
+<img src="featured.png" alt="Thumbnail" width="20%" />
+<p class="caption">Figure 1: Thumbnail</p>
 </div>
 
-## Some penguins to start
+## Hello World!
+
+```r
+x <- "Hello World!"
+print(x)
+## [1] "Hello World!"
+```
+
+Since this is the first ever post on this website, what could be better than the old trustworthy *Hello World!* program.
+
+## Some penguins to continue:
 
 ```r
 library(tidyverse)
@@ -35,11 +43,8 @@ library(palmerpenguins)
 ```
 
 <div class="figure">
-<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-3-1.png" alt="Histogram" width="672" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-4-1.png" alt="Histogram" width="100%" />
 <p class="caption">Figure 2: Histogram</p>
-</div><div class="figure">
-<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-3-2.png" alt="Histogram" width="672" />
-<p class="caption">Figure 3: Histogram</p>
 </div>
 
 
