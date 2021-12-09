@@ -53,6 +53,14 @@ ggplot(data = penguins, aes(x = flipper_length_mm)) +
 
 Found out that the *rbind* website during the session of famous [*Alison Hill*](https://www.apreshill.com). She not only introduced us to her **Hugo Apero** theme but also GIT push (believe me, it was my first time) and rbind.io.
 
+Normal link with https:
 ![](https://youtu.be/RksaNh5Ywbo)
+
+without https:
+![](youtu.be/RksaNh5Ywbo)
+
+with iframe:
+
+<iframe width="560" height="315" src="https://youtu.be/RksaNh5Ywbo" frameborder="0" allowfullscreen></iframe>
 
 [Introduce yourself online using blogdown and Hugo Apèro](https://www.youtube.com/watch?v=RksaNh5Ywbo)
