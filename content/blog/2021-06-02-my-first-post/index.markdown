@@ -65,6 +65,6 @@ without https:
 
 with iframe:
 
-<iframe width="560" height="315" src="https://youtu.be/RksaNh5Ywbo" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="youtu.be/RksaNh5Ywbo" frameborder="0" allowfullscreen></iframe>
 
 [Introduce yourself online using blogdown and Hugo Apèro](https://www.youtube.com/watch?v=RksaNh5Ywbo)
