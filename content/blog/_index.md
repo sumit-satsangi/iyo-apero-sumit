@@ -1,7 +1,7 @@
 ---
 title: Random thoughts and ranting
 description: |
-  Starting from the free tier at Wordpress, quickly moved to rbind and Netlify in order to share my learning along with some tips and tricks of life.
+  Starting from the free tier at <a href="www.wordpress.org">Wordpress</a>, quickly moved to <a href="www.rbind.io">rbind.io</a> and <a href="www.netlify.app">Netlify</a> in order to share my learning along with some tips and tricks of life.
 author: ""
 show_post_thumbnail: true
 show_author_byline: true
